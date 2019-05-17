@@ -21,7 +21,7 @@ This chart will do the following:
 
 To install the chart with the release name `my-release`:
 
-```
+```bash
 $ helm install --name my-release $PATH_TO_THIS_REPO
 ```
 
@@ -59,5 +59,5 @@ Specify each parameter using the `--set key=value[,key=value]` argument to `helm
 Alternatively, a YAML file that specifies the values for the parameters can be provided while installing the chart. For example,
 
 ```bash
-$ helm install --name my-release -f values.yaml stable/openldap
+$ helm install --name my-release -f values.yaml $PATH_TO_THIS_REPO
 ```
